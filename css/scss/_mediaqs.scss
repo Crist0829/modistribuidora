@@ -1,0 +1,52 @@
+@media screen and (max-width: 768px) {
+    main{
+        margin-right: 0px;
+        margin-left: 0px;
+
+        .slider{
+            display: none; //Se oculta el slider
+        }
+
+        .lab{
+            margin-top: 9rem;
+            
+            .container{
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .content{
+            .container{
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+    }
+
+    
+
+    
+
+    
+}
+
+@media screen and (max-width: 960px) {
+    .header{
+        .header-content{
+            header{
+                align-items: center;
+                justify-content: space-between;
+
+                .nav-icon{
+                    display: block;
+                    margin-right: 2rem;
+                }
+                ul{
+                    display: none;
+                }
+            }
+        }
+    }
+}

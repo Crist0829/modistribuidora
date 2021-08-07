@@ -1,0 +1,13 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@import "variables";
+@import "mixins";
+@import "components";
+@import "mediaqs";
+
+body{
+    font-family: $fontPrimary;
+}

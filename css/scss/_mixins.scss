@@ -1,0 +1,53 @@
+@mixin container($direccion: column, $alineacion: center, $justify: center, $wrap: wrap){
+    display: flex;
+    flex-direction: $direccion;
+    align-items: $alineacion;
+    justify-content: $justify;
+    flex-wrap: wrap;
+
+}
+
+@mixin flex-row-baseline{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: baseline;
+
+}
+
+@mixin flex-row-center{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+
+}
+
+@mixin flex-column-center{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+
+@mixin card-lab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 10rem;
+    height: 10rem;
+    background-color: $colorTertiary;
+    border-radius: 1rem;
+    text-align: center;
+
+    h3{
+        color: white;
+        font-size: 10pt;
+    }
+
+}
